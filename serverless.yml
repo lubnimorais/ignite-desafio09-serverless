@@ -51,8 +51,8 @@ resources:
           ReadCapacityUnits: 5
           WriteCapacityUnits: 5
         AttributeDefinitions:
-          - AttributeName: id
+          - AttributeName: userid
             AttributeType: S
         KeySchema:
-          - AttributeName: id
+          - AttributeName: userid
             KeyType: HASH
